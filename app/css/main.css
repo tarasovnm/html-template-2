@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* примеры подключения шрифтов 
+@include font-face("Kaushan Script", "../fonts/KaushanScript-Regular/KaushanScript-Regular");
+@include font-face("Montserrat", "../fonts/Montserrat-Regular/Montserrat-Regular");
+@include font-face("Montserrat", "../fonts/Montserrat-Bold/Montserrat-Bold", bold);
+@include font-face("Roboto", "../fonts/Roboto-Regular/Roboto-Regular");
+@include font-face("Roboto", "../fonts/Roboto-LightItalic/Roboto-LightItalic", 300, italic);
+*/
+body {
+  font-family: "roboto-example", sans-serif; }
+  body h1, body h2, body h3, body h4, body h5 {
+    /*
+		font-family: "Montserrat";
+		font-weight: bold;
+		*/ }
